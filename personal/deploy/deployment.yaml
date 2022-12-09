@@ -31,9 +31,9 @@ spec:
             - name: NFS_SERVER
               value: REPLACE_PV_SERVER
             - name: NFS_PATH
-              value: REPLACE_PV_PATH
+              value: REPLACE_PATH
       volumes:
         - name: nfs-client-root
           nfs:
             server: REPLACE_PV_SERVER
-            path: REPLACE_PV_PATH
+            path: REPLACE_PATH
